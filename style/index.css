@@ -1,0 +1,275 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 100%;
+  height: 110vh;
+  background: linear-gradient(pink, rgba(228, 60, 192, 0.842));
+  position: relative;
+}
+.box-menu {
+  width: 100%;
+  height: 80px;
+}
+.menu1-logo {
+  width: 7%;
+  height: 80px;
+  background-color: rgb(230, 32, 230);
+  float: left;
+}
+.menu1-logo img {
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+}
+.menu1-1-name {
+  width: 30%;
+  height: 80px;
+  background-color: rgb(230, 32, 230);
+  float: left;
+}
+.menu1-1-name p {
+  font-size: 25px;
+  font-family: "times New Roman";
+  color: white;
+}
+.menu2-menu {
+  width: 63%;
+  height: 80px;
+  background-color: rgb(230, 32, 230);
+  float: left;
+}
+.menu2-menu ul {
+  list-style-type: none;
+  float: right;
+}
+.menu2-menu ul li {
+  float: left;
+}
+.menu2-menu ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: cornsilk;
+  margin-right: 15px;
+}
+.menu2-menu ul li a:hover {
+  color: red;
+}
+.box-header {
+  width: 100%;
+  height: 600px;
+}
+.box3 {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.box3-1 {
+  width: 46%;
+  height: 300px;
+  border: 5px black solid;
+  border-radius: 70px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 100px;
+}
+.box3-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 65px;
+  object-fit: cover;
+}
+.box3 h1 {
+  color: red;
+  margin-top: 100px;
+}
+.box3 p {
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+}
+.box3-2 {
+  width: 46%;
+  height: 300px;
+  border: 5px black solid;
+  border-radius: 150px;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.box3-2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+  object-fit: cover;
+}
+.box3-3 {
+  width: 40%;
+  height: 50px;
+  background-color: rgb(221, 46, 198);
+  position: absolute;
+  top: 320px;
+  left: 85px;
+  border-radius: 10px;
+}
+
+.box3-3 p {
+  color: white;
+  margin-top: 2px;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+.box4-tex {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.box4-tex h1 {
+  color: red;
+  margin-top: 30px;
+}
+.box4-tex p {
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+}
+.box3-tex {
+  width: 100%;
+  height: 250px;
+}
+.box3-tex2 {
+  width: 100%;
+  height: 200px;
+}
+.box3-tex2 p {
+  color: blue;
+  margin: 15px;
+}
+.box3-tex2 i {
+  color: black;
+}
+.boximg-resume {
+  width: 65%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.boximg-resume1 {
+  width: 45%;
+  height: 270px;
+  float: left;
+  margin: 10px;
+}
+.boximg-resume1-1 {
+  width: 100%;
+  height: 150px;
+}
+.boximg-resume1-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boximg-resume1-2 {
+  width: 100%;
+  height: 120px;
+}
+.boximg-resume1-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boximg-resume1-right {
+  width: 100%;
+  height: 110px;
+}
+.boximg-resume1-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boximg-resume2-right {
+  width: 100%;
+  height: 110px;
+  background-color: palevioletred;
+}
+.boximg-resume2-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-small {
+  width: 65%;
+  height: 230px;
+  margin-left: 110px;
+}
+.boxresume-small {
+  width: 17%;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 60px;
+  float: left;
+  border-radius: 90px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.boxresume-small img {
+  width: 100%;
+  height: 100%;
+  border-radius: 90px;
+  object-fit: cover;
+}
+.box-texlogin {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+}
+.box-texlogin p {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+.box-login {
+  width: 80%;
+  height: 450px;
+  position: absolute;
+  top: 170px;
+  left: 130px;
+}
+.box-login form {
+  margin-left: 20%;
+  line-height: 4;
+}
+.box-login form label {
+  font-size: 20px;
+  color: white;
+}
+.box-login form input {
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+}
+.box-login-2 form input {
+  width: 50%;
+  height: 80px;
+  border-radius: 10px;
+}
+.box-submit {
+  width: 10%;
+  height: 35px;
+  background-color: rgb(226, 34, 201);
+  border-radius: 10px;
+  margin: auto;
+  margin-right: 320px;
+}
+.box-submit p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
