@@ -5,7 +5,7 @@ body {
 .box {
   width: 100%;
   height: 110vh;
-  background: linear-gradient(pink, rgba(228, 60, 192, 0.842));
+  background: linear-gradient(rgba(240, 178, 86, 0.432), hsl(330, 96%, 69%));
   position: relative;
 }
 .box-menu {
@@ -32,7 +32,7 @@ body {
 .menu1-1-name p {
   font-size: 25px;
   font-family: "times New Roman";
-  color: white;
+  color: black;
 }
 .menu2-menu {
   width: 63%;
@@ -53,7 +53,7 @@ body {
   padding: 10px;
   font-size: 25px;
   text-transform: uppercase;
-  color: cornsilk;
+  color: black;
   margin-right: 15px;
 }
 .menu2-menu ul li a:hover {
@@ -89,8 +89,8 @@ body {
 }
 .box3 p {
   font-size: 25px;
-  color: white;
-  line-height: 30px;
+  color: black;
+  line-height: 40px;
 }
 .box3-2 {
   width: 46%;
@@ -107,6 +107,21 @@ body {
   border-radius: 150px;
   object-fit: cover;
 }
+@keyframes floadImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.3rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.box3-2 {
+  animation: floadImage 4s ease-in-out infinite;
+}
 .box3-3 {
   width: 40%;
   height: 50px;
@@ -116,9 +131,12 @@ body {
   left: 85px;
   border-radius: 10px;
 }
+.box3-3 a {
+  text-decoration: none;
+}
 
 .box3-3 p {
-  color: white;
+  color: black;
   margin-top: 2px;
   padding: 10px;
   margin-left: 5px;
@@ -135,12 +153,12 @@ body {
 }
 .box4-tex p {
   font-size: 25px;
-  color: white;
+  color: black;
   line-height: 30px;
 }
 .box3-tex {
   width: 100%;
-  height: 250px;
+  height: 210px;
 }
 .box3-tex2 {
   width: 100%;
@@ -215,8 +233,7 @@ body {
   margin-left: 60px;
   float: left;
   border-radius: 90px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .boxresume-small img {
   width: 100%;
@@ -244,16 +261,19 @@ body {
 }
 .box-login form {
   margin-left: 20%;
-  line-height: 4;
+  line-height: 3;
 }
 .box-login form label {
-  font-size: 20px;
-  color: white;
+  font-size: 26px;
+  color: black;
 }
 .box-login form input {
   width: 50%;
   height: 50px;
   border-radius: 10px;
+  font-family: Times New Roman;
+  font-size: 20px;
+  border: none;
 }
 .box-login-2 form input {
   width: 50%;
@@ -268,8 +288,11 @@ body {
   margin: auto;
   margin-right: 320px;
 }
+.box-submit a {
+  text-decoration: none;
+}
 .box-submit p {
-  color: white;
+  color: black;
   font-size: 25px;
   text-align: center;
 }
